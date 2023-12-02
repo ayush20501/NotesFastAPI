@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-SQLALCHEMY_DATABASE_URL = os.getenv("URL")
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres:rwbwxxBIAOdhfOfL@db.ystyobhamuxwcutvykrc.supabase.co:5432/postgres"
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
